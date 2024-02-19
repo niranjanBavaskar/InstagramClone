@@ -1,0 +1,52 @@
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.top {
+  height: 90%;
+  width: 100%;
+  border: 1px solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+}
+
+.left {
+  height: 80%;
+  width: 20%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  height: 80%;
+  width: 20%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightBottom {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.facebookLogin {
+  border: 1px solid;
+}
+
+.signUp {
+  border: 1px solid;
+}
+
+.getApp {
+  border: 1px solid;
+}

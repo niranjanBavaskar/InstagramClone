@@ -1,0 +1,22 @@
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border: 1px solid;
+}
+
+.box {
+  height: 90%;
+  width: 30%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.bottom {
+  height: 10%;
+  width: 100%;
+  border: 1px solid;
+}

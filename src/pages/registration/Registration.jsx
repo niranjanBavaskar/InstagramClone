@@ -1,8 +1,12 @@
-import React from 'react'
-import styles from './registration.module.css'
+import React from "react";
+import styles from "./registration.module.css";
 
 export const Registration = () => {
   return (
-    <div>Registration</div>
-  )
-}
+    <div className={styles.main}>
+      <div className={styles.box}>
+        <div className={styles.bottom}>Log in</div>
+      </div>
+    </div>
+  );
+};
