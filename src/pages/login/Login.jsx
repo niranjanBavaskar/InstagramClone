@@ -15,21 +15,39 @@ export const Login = () => {
 
             <div className={styles.loginForm}>
               <input type="text" placeholder="phone no" />
-              <input type="text" placeholder="password" style={{marginTop:"6px"}}/>
+              <input
+                type="text"
+                placeholder="password"
+                style={{ marginTop: "6px" }}
+              />
               <button>Login</button>
             </div>
             <div className={styles.divider}>
-              <div className={styles.line}></div>
-              <p>OR</p>
+              <div className={styles.line1}></div>
+              <div className={styles.or}>OR</div>
+              <div className={styles.line2}></div>
             </div>
             <div className={styles.socialLogin}>
               <FaSquareFacebook />
-              <p>Login with Facebook</p>
+              <p>Log in with Facebook</p>
             </div>
             <div className={styles.forgotPassword}>Forgot Password ?</div>
           </div>
-          <div className={styles.signUpBox}>Sign up box</div>
-          <div className={styles.getAppBox}>Get the app</div>
+          <div className={styles.signUpBox}>
+            <p>Don't have an account?</p>&nbsp;
+            <div className={styles.signUp}>Sign up</div>
+          </div>
+          <div className={styles.getAppBox}>
+            <p>Get the app.</p>
+            <div className={styles.getApp}>
+              <div className={styles.googleBtn}>
+                <img src=".\images\Goggle.png" alt="" />
+              </div>
+              <div className={styles.microsoftBtn}>
+                <img src=".\images\Appstore.png" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className={styles.bottom}>Meta info</div>
