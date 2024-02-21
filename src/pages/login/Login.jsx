@@ -6,7 +6,9 @@ export const Login = () => {
   return (
     <div className={styles.main}>
       <div className={styles.top}>
-        <div className={styles.left}>Mobile gif</div>
+        <div className={styles.left}>
+          <img src=".\images\giphy.gif" alt="" />
+        </div>
         <div className={styles.right}>
           <div className={styles.signInBox}>
             <div className={styles.appLogo}>

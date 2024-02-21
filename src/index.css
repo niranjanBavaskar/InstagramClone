@@ -1,12 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   padding: 0;
   box-sizing: border-box;
   margin: 0;
+
   --primaryColor: white;
   --buttonColor: rgb(65, 160, 255);
   --primaryTextColor: rgb(38, 38, 38);
   --buttonTextColor: white;
   overflow-x: hidden;
+  overflow-y: auto;
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -18,7 +24,6 @@ body {
 ul {
   margin: 0;
   padding: 0;
- 
 }
 
 li {
