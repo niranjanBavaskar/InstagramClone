@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   --primaryColor: white;
-  --buttonColor: dodgerblue;
+  --buttonColor: rgb(65, 160, 255);
   --primaryTextColor: rgb(38, 38, 38);
   --buttonTextColor: white;
   overflow-x: hidden;

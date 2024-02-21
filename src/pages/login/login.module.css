@@ -18,7 +18,8 @@
 .left {
   height: 80%;
   width: 20%;
-  border: 1px solid;
+  border: 1px solid #ccc;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +39,7 @@
 .signInBox {
   height: 75%;
   width: 100%;
-  border: 1px solid;
+  border: 1px solid #ccc;
 
   display: flex;
   flex-direction: column;
@@ -78,6 +79,7 @@
   outline: none;
   border: 1px solid #ccc;
   padding-left: 5px;
+  background-color: rgb(246, 246, 246);
 }
 
 .loginForm button {
@@ -89,6 +91,8 @@
   border: 1px solid #ccc;
   background-color: var(--buttonColor);
   color: var(--buttonTextColor);
+  cursor: pointer;
+  font-weight: 600;
 }
 
 .divider {
@@ -117,12 +121,16 @@
   margin-left: 15px;
 }
 
+
 .socialLogin {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
   color: #3b5998;
+  cursor: pointer;
+  
+
 }
 
 .socialLogin p {
@@ -131,6 +139,8 @@
 
 .forgotPassword {
   font-size: small;
+  cursor: pointer;
+
 }
 
 .signUpBox {
@@ -139,18 +149,20 @@
   justify-content: center;
   height: 10%;
   width: 100%;
-  border: 1px solid;
+  border: 1px solid #ccc;
 }
 
 .signUp {
   color: var(--buttonColor);
   font-weight: 600;
+  cursor: pointer;
+
 }
 
 .getAppBox {
   height: 15%;
   width: 100%;
-  border: 1px solid;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,8 +173,7 @@
 .getAppBox p {
   all: unset;
   width: 100%;
-  border: 1px solid;
-  padding: 5px 0px;
+  padding-bottom: 12px;
 }
 
 .getApp {
@@ -170,18 +181,20 @@
   align-items: center;
   justify-content: space-evenly;
 
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 75%;
+  gap: 8px;
+  cursor: pointer;
+
 }
 
 .googleBtn {
   height: 100%;
   width: 100%;
-  border: 1px solid;
 }
 
 .googleBtn img {
-  object-fit: cover;
+  /* object-fit: cover; */
   height: 100%;
   width: 100%;
 }
@@ -189,11 +202,10 @@
 .microsoftBtn {
   height: 100%;
   width: 100%;
-  border: 1px solid;
 }
 
 .microsoftBtn img {
-  object-fit: cover;
+  /* object-fit: cover; */
   height: 100%;
   width: 100%;
 }

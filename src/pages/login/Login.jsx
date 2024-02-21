@@ -14,13 +14,13 @@ export const Login = () => {
             </div>
 
             <div className={styles.loginForm}>
-              <input type="text" placeholder="phone no" />
+              <input type="text" placeholder="Phone number, username, or email" />
               <input
                 type="text"
-                placeholder="password"
+                placeholder="Password"
                 style={{ marginTop: "6px" }}
               />
-              <button>Login</button>
+              <button>Log in</button>
             </div>
             <div className={styles.divider}>
               <div className={styles.line1}></div>
@@ -41,10 +41,10 @@ export const Login = () => {
             <p>Get the app.</p>
             <div className={styles.getApp}>
               <div className={styles.googleBtn}>
-                <img src=".\images\Goggle.png" alt="" />
+                <img src=".\images\GoogleBtn.png" alt="" />
               </div>
               <div className={styles.microsoftBtn}>
-                <img src=".\images\Appstore.png" alt="" />
+                <img src=".\images\MicrosoftBtn.png" alt="" />
               </div>
             </div>
           </div>
