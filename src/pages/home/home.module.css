@@ -1,0 +1,58 @@
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+ 
+}
+
+.left {
+  height: 100%;
+  width: 20%;
+  border: 1px solid;
+}
+
+.center {
+  height: 100%;
+  width: 50%;
+  border: 1px solid;
+  overflow: auto;
+  
+}
+
+.center::-webkit-scrollbar {
+  display: none;
+}
+
+.userStories {
+  height: 10%;
+  width: 100%;
+  border: 1px solid;
+}
+
+.posts {
+  height: auto;
+  width: 100%;
+ 
+   
+} 
+
+.right {
+  height: 100%;
+  width: 30%;
+  border: 1px solid;
+}
+
+.userProfile {
+  height: 10%;
+  width: 100%;
+  border: 1px solid;
+}
+
+.suggestedFrd {
+  height: 90%;
+  width: 100%;
+  border: 1px solid;
+}

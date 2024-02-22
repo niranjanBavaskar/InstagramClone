@@ -21,29 +21,32 @@ export const Registration = () => {
               Log in with Facebook
             </button>
           </div>
-          <div className={styles.divider}>
+          
+        </div>
+        <div className={styles.mid}>
+        <div className={styles.divider}>
             <div className={styles.line1}></div>
             <div className={styles.or}>OR</div>
             <div className={styles.line2}></div>
           </div>
+          
         </div>
-        <div className={styles.mid}>
-          <div className={styles.loginForm}>
+        <div className={styles.bottom}>
+        <div className={styles.loginForm}>
             <input type="text" placeholder="Mobile Number or Email" />
             <input type="text" placeholder="Full Name" />
             <input type="text" placeholder="Username" />
             <input type="text" placeholder="Password" />
           </div>
-        </div>
-        <div className={styles.bottom}>
           <p>
             people who use our service may have uploaded
             <br />
-            your contact information to instagram. Learn <br /> More
+            your contact information to instagram. <span style={{cursor:"pointer", color:"dodgerblue"}}>Learn <br /> More
+            </span>
           </p>
           <p>
-            By signing up, you agree to our Terms, Privacy Policy <br /> and
-            Cookies Policy . 
+            By signing up, you agree to our Terms, <span style={{cursor:"pointer", color:"dodgerblue"}}>Privacy Policy</span> <br /> and
+            <span style={{cursor:"pointer", color:"dodgerblue"}}> Cookies Policy </span>. 
           </p>
 
           <button>Sign up</button>
