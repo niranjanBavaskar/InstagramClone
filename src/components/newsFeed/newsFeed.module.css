@@ -1,0 +1,50 @@
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.right {
+  height: 100%;
+  width: 100%;
+  border: 1px solid;
+  overflow: auto;
+  display: flex;
+}
+
+.right::-webkit-scrollbar {
+  display: none;
+}
+
+.leftContainer {
+  width: 60%;
+}
+
+.userStories {
+  height: 10%;
+  width: 100%;
+  border: 1px solid;
+}
+
+.posts {
+  height: auto;
+  width: 100%;
+}
+
+.rightContainer {
+  width: 40%;
+}
+
+.userProfile {
+  height: 10%;
+  width: 100%;
+  border: 1px solid;
+}
+
+.suggestedFrd {
+  height: 90%;
+  width: 100%;
+  border: 1px solid;
+}
