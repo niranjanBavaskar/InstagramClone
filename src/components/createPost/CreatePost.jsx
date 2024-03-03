@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './createPost.module.css'
 
-export const Createpost = () => {
+export const CreatePost = () => {
   return (
     <div>Createpost</div>
   )
