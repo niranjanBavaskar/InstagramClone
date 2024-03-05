@@ -10,9 +10,22 @@ import { MdOutlineCreateNewFolder } from "react-icons/md";
 import { FaThreads } from "react-icons/fa6";
 import { IoIosMore } from "react-icons/io";
 import { Newsfeed } from "../../components/newsFeed/Newsfeed";
+import { Search } from "../../components/search/Search";
+import { Explore } from "../../components/explore/Explore";
+import { Reels } from "../../components/reels/Reels";
+import { Messages } from "../../components/messages/Messages";
+import { Notification } from "../../components/notification/Notification";
+import { Createpost } from "../../components/createPost/Createpost";
+import { Profilesettingsmodel } from "../../components/profileSettingsModel/Profilesettingsmodel";
+import { More } from "../../components/more/More";
 
 export const Home = () => {
   const [isProfileTabActive, setIsProfileTabActive] = useState(false);
+  const [selectedTab, setSelectedTab] = useState(0);
+
+  const handleClick = (count) => {
+    setSelectedTab(count);
+  };
 
   return (
     <div className={styles.main}>
@@ -21,35 +34,75 @@ export const Home = () => {
           <img src=".\images\instagram.png" alt="" />
         </div>
         <div className={styles.components1}>
-          <div className={styles.home}>
+          <div
+            className={styles.home}
+            onClick={() => {
+              handleClick(0);
+            }}
+          >
             <MdHomeFilled className={styles.sidebarIcon} />
             Home
           </div>
-          <div className={styles.search}>
+          <div
+            className={styles.search}
+            onClick={() => {
+              handleClick(1);
+            }}
+          >
             <CiSearch className={styles.sidebarIcon} />
             Search
           </div>
-          <div className={styles.explore}>
+          <div
+            className={styles.explore}
+            onClick={() => {
+              handleClick(2);
+            }}
+          >
             <MdOutlineExplore className={styles.sidebarIcon} />
             Explore
           </div>
-          <div className={styles.reels}>
+          <div
+            className={styles.reels}
+            onClick={() => {
+              handleClick(3);
+            }}
+          >
             <RiVideoLine className={styles.sidebarIcon} />
             Reels
           </div>
-          <div className={styles.messages}>
+          <div
+            className={styles.messages}
+            onClick={() => {
+              handleClick(4);
+            }}
+          >
             <IoChatbubbleEllipsesOutline className={styles.sidebarIcon} />
             Messages
           </div>
-          <div className={styles.notifications}>
+          <div
+            className={styles.notifications}
+            onClick={() => {
+              handleClick(5);
+            }}
+          >
             <CiHeart className={styles.sidebarIcon} />
             Notifications
           </div>
-          <div className={styles.create}>
+          <div
+            className={styles.create}
+            onClick={() => {
+              handleClick(6);
+            }}
+          >
             <MdOutlineCreateNewFolder className={styles.sidebarIcon} />
             Create
           </div>
-          <div className={styles.profile}>
+          <div
+            className={styles.profile}
+            onClick={() => {
+              handleClick(7);
+            }}
+          >
             <img
               src=".\images\profile.jpg"
               alt=""
@@ -72,15 +125,28 @@ export const Home = () => {
             <FaThreads className={styles.sidebarIcon} />
             Threads
           </div>
-          <div className={styles.more}>
-            <IoIosMore className={styles.sidebarIcon} />
+          <div className={styles.more} onClick={() => {
+                handleClick(8);
+              }}>
+            <IoIosMore
+              className={styles.sidebarIcon}
+              
+            />
             More
           </div>
         </div>
       </div>
       <div className={styles.right}>
-       {/* <Newsfeed/> */}
-       hellow world
+        {selectedTab === 0 && <Newsfeed />}
+        {selectedTab === 1 && <Search />}
+        {selectedTab === 2 && <Explore />}
+
+        {selectedTab === 3 && <Reels />}
+        {selectedTab === 4 && <Messages />}
+        {selectedTab === 5 && <Notification />}
+        {selectedTab === 6 && <Createpost />}
+        {selectedTab === 7 && <Profilesettingsmodel />}
+        {selectedTab === 8 && <More />}
       </div>
     </div>
   );

@@ -48,6 +48,8 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  cursor: pointer;
+
 }
 
 .search {
@@ -55,6 +57,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  cursor: pointer;
 }
 
 .explore {
@@ -62,6 +65,8 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  cursor: pointer;
+
 }
 
 .reels {
@@ -69,6 +74,8 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  cursor: pointer;
+
 }
 
 .messages {
@@ -76,6 +83,8 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  cursor: pointer;
+
 }
 
 .notifications {
@@ -83,6 +92,8 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  cursor: pointer;
+
 }
 
 .create {
@@ -90,6 +101,8 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  cursor: pointer;
+
 }
 
 .profile {
@@ -97,6 +110,8 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  cursor: pointer;
+
 }
 
 .profileImg {
@@ -137,6 +152,8 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  cursor: pointer;
+
 }
 
 .right {

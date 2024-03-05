@@ -1,0 +1,77 @@
+.main {
+    height: auto;
+    width: 100%;
+  }
+  
+  .postContainer {
+    height: auto;
+    width: 60%;
+    border: 1px solid;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  
+  .profileInfo {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid red;
+  }
+  
+  .post {
+    height: 500px;
+    width: 100%;
+    border-bottom: 1px solid red;
+  }
+  
+  .engagementButtons {
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid red;
+    display: flex;
+    align-items: center;
+  }
+  
+  .likesInfo {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid red;
+  }
+  
+  .postTitle {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid red;
+  }
+  
+  .postTitle p {
+    all: unset;
+  }
+  
+  .viewPostContent {
+    display: block;
+  }
+  
+  .viewComments {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid red;
+  }
+  
+  .addComments {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid red;
+  }

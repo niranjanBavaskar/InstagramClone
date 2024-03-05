@@ -23,9 +23,46 @@
 }
 
 .userStories {
-  height: 10%;
+  height: 15%;
   width: 100%;
   border: 1px solid;
+  padding: 10px;
+  padding-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.userStory {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+
+}
+
+.profilePic {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.profilePic img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+
+.profileName p {
+  all: unset;
+  
+
 }
 
 .posts {
@@ -41,10 +78,79 @@
   height: 10%;
   width: 100%;
   border: 1px solid;
+  padding: 10px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profileRight {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+ gap: 8px;
+}
+
+.userProfilePic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.userProfilePic img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userProfileName p {
+  all: unset;
+}
+
+.userProfileName {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 3px;
+  margin-left: 5px;
 }
 
 .suggestedFrd {
   height: 90%;
   width: 100%;
   border: 1px solid;
+  padding: 10px 10%;
+}
+
+.header {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header p {
+  all: unset;
+}
+
+.friends {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 0px;
+}
+
+.friends .profileRight {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }

@@ -1,0 +1,11 @@
+.main {
+    height: 100%;
+    width: 30%;
+    background-color: red;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    left: 5%;
+    top: 0px;
+    overflow: hidden;
+  }
