@@ -8,6 +8,17 @@
   position: relative;
 }
 
+.mainModal {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: red;
+}
+
 .left {
   height: 100%;
   width: 20%;

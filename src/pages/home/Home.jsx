@@ -134,6 +134,7 @@ export const Home = () => {
             <div className={styles.create} onClick={() => handleClick(6)}>
               <MdOutlineCreateNewFolder className={styles.sidebarIcon} />
               Create
+              {selectedTab === 6 && <CreatePost />}
             </div>
             <div className={styles.profile} onClick={() => handleClick(7)}>
               <img
@@ -176,7 +177,6 @@ export const Home = () => {
         {selectedTab === 3 && <Reels />}
         {selectedTab === 4 && <Messages />}
         {selectedTab === 5 && <Notification />}
-        {selectedTab === 6 && <CreatePost />}
       </div>
     </div>
   );
