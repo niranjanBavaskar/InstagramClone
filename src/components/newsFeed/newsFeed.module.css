@@ -30,7 +30,8 @@
   padding-left: 10%;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  gap: 10px;
+   
 }
 
 .userStory {
@@ -60,6 +61,7 @@
 }
 
 .profileName p {
+ 
   all: unset;
   
 
@@ -99,6 +101,19 @@
   border-radius: 50%;
 }
 
+.userProfilePic:hover {
+  cursor: pointer;
+}
+
+.profileLeft {
+  color: var(--buttonColor);
+}
+
+.profileLeft:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 101);
+}
+
 .userProfilePic img {
   height: 50px;
   width: 50px;
@@ -132,6 +147,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header:hover {
+  color: grey;
 }
 
 .header p {

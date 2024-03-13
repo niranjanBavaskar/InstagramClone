@@ -1,0 +1,63 @@
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postModal {
+  height: 600px;
+  width: 550px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.userPost {
+  height: 550px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.userPost img {
+  height: 80px;
+}
+
+.userPost p {
+  font-size: larger;
+}
+
+.userPost button {
+  height: 30px;
+  width: 175px;
+  font-weight: 600;
+  background-color: var(--buttonColor);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.userPost button:hover {
+  background-color: dodgerblue;
+}

@@ -1,18 +1,149 @@
 .main {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.left {
+  height: 100%;
+  width: 30%;
+  border-right: 1px solid;
+}
+
+.top {
+  height: 15%;
+  width: 100%;
+  /* border-bottom: 1px solid red; */
+}
+
+.userName {
+  height: 60%;
+  width: 100%;
+  /* border-bottom: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+.userName p {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.userName img {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+
   
-  .left {
-    height: 100%;
-    width: 30%;
-    border-right: 1px solid;
-  }
-  
-  .main .right {
-    height: 100%;
-    width: 70%;
-  }
+}
+
+.messageButtons {
+  height: 35%;
+  width: 100%;
+  /* border: 1px solid; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.bottom {
+  height: 85%;
+  width: 100%;
+  overflow: auto;
+  /* border: 2px solid red; */
+}
+
+.friendsMessages {
+  display: flex;
+  gap: 5px;
+  padding-left: 20px;
+  padding-top: 5px;
+   cursor: pointer;
+}
+
+.profilePic {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.profilePic img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profileName {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.profileName p {
+  all: unset;
+}
+
+.main .right {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.messageContainer {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.messageContainer button {
+  height: 30px;
+  width: 130px;
+  font-weight: 600;
+  background-color: var(--buttonColor);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.messageContainer button:hover {
+  background-color: rgb(20, 137, 254);
+
+
+}
+
+.messageContainer p {
+  all: unset;
+}
+
+.icon {
+  height: 60px;
+  width: 60px;
+}

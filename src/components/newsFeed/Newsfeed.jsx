@@ -13,10 +13,59 @@ export const Newsfeed = () => {
                 <img src=".\images\profile.jpg" alt="" />
               </div>
               <div className={styles.profileName}>
-                <p>aarush_bhola</p>
+                <p style={{ fontSize: "small"}}>aarush_bhola</p>
+              </div>
+            </div>
+            <div className={styles.userStory}>
+              <div className={styles.profilePic}>
+                <img src=".\images\profile.jpg" alt="" />
+              </div>
+              <div className={styles.profileName}>
+                <p style={{ fontSize: "small"}}>elvish_yadav</p>
+              </div>
+            </div>
+            <div className={styles.userStory}>
+              <div className={styles.profilePic}>
+                <img src=".\images\profile.jpg" alt="" />
+              </div>
+              <div className={styles.profileName}>
+                <p style={{ fontSize: "small"}}>saketgohale</p>
+              </div>
+            </div>
+            <div className={styles.userStory}>
+              <div className={styles.profilePic}>
+                <img src=".\images\profile.jpg" alt="" />
+              </div>
+              <div className={styles.profileName}>
+                <p style={{ fontSize: "small"}}>aarush_bhola</p>
+              </div>
+            </div>
+            <div className={styles.userStory}>
+              <div className={styles.profilePic}>
+                <img src=".\images\profile.jpg" alt="" />
+              </div>
+              <div className={styles.profileName}>
+                <p style={{ fontSize: "small"}}>aarush_bhola</p>
+              </div>
+            </div>
+            <div className={styles.userStory}>
+              <div className={styles.profilePic}>
+                <img src=".\images\profile.jpg" alt="" />
+              </div>
+              <div className={styles.profileName}>
+                <p style={{ fontSize: "small"}}>aarush_bhola</p>
+              </div>
+            </div>
+            <div className={styles.userStory}>
+              <div className={styles.profilePic}>
+                <img src=".\images\profile.jpg" alt="" />
+              </div>
+              <div className={styles.profileName}>
+                <p style={{ fontSize: "small"}}>aarush_bhola</p>
               </div>
             </div>
           </div>
+          
           <div className={styles.posts}>
             <Post />
           </div>
@@ -28,7 +77,7 @@ export const Newsfeed = () => {
                 <img src="./images/profile.jpg" alt="" />
               </div>
               <div className={styles.userProfileName}>
-                <p>saket_gokhale</p>
+                <p style={{cursor:"pointer"}}>saketgokhale</p>
                 <p>Saket Gokhale</p>
               </div>
             </div>
@@ -38,8 +87,8 @@ export const Newsfeed = () => {
           </div>
           <div className={styles.suggestedFrd}>
             <div className={styles.header}>
-              <p>Suggested Friends</p>
-              <p>See all</p>
+              <p style={{color: "grey"}}>Suggested Friends</p>
+              <p style={{cursor:"pointer"}}>See All</p>
             </div>
             <div className={styles.friends}>
               <div className={styles.profileRight}>
@@ -47,10 +96,11 @@ export const Newsfeed = () => {
                   <img src="./images/profile.jpg" alt="" />
                 </div>
                 <div className={styles.userProfileName}>
-                  <p>elvish_yadav</p>
+                  <p style={{cursor:"pointer"}}>elvish_yadav</p>
                   <p>Elvish Yadav</p>
                 </div>
               </div>
+              
               <div className={styles.profileLeft}>
                 <p>Follow</p>
               </div>

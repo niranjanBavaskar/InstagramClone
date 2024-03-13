@@ -1,23 +1,26 @@
-import React from 'react'
-import styles from './search.module.css'
+import React from "react";
+import styles from "./search.module.css";
+import { RxCrossCircled } from "react-icons/rx";
 
 export const Search = () => {
   return (
     <div className={styles.main}>
-      <div className={styles.searchModalContainer}>
-        <div className={styles.header}>
-          <h1>Search</h1>
-        </div>
+      <div className={styles.top}>
+        <h1>Search</h1>
+
         <div className={styles.searchBar}>
-          searchbar
-        </div>
-        <div className={styles.recent}>
-          recent
-        </div>
-        <div className={styles.suggestedSearch}>
-          suggestedSearch
+          <input type="text" placeholder="Search" />
+
+          <RxCrossCircled style={{ cursor: "pointer" }} />
         </div>
       </div>
+      <div className={styles.bottom}>
+        <div className={styles.recent}>
+          <p>Recent</p>
+          <p style={{ color: "dodgerblue", cursor: "pointer" }}>Clear all</p>
+        </div>
+        <div className={styles.recentSearch}></div>
+      </div>
     </div>
-  )
-}
+  );
+};

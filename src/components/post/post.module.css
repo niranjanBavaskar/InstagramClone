@@ -16,14 +16,29 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     border-bottom: 1px solid red;
+    gap: 5px;
+   
+  }
+
+  .profileInfo img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+
   }
   
   .post {
     height: 500px;
     width: 100%;
     border-bottom: 1px solid red;
+  }
+
+  .post img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
   
   .engagementButtons {
@@ -32,8 +47,17 @@
     border-bottom: 1px solid red;
     display: flex;
     align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+  } 
+
+  .engagementButtonsLeft {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
   }
-  
+
   .likesInfo {
     height: 40px;
     width: 100%;
@@ -66,6 +90,8 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid red;
+    color: grey;
+    cursor: pointer;
   }
   
   .addComments {
@@ -74,4 +100,17 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid red;
+    
+    
+  }
+
+  .addComments input {
+    height: 100%;
+    width: 100%;
+    color: grey;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    
   }

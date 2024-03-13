@@ -1,0 +1,60 @@
+/* .main {
+  height: 56%;
+  width: 22%;
+  border-radius: 20px;
+  position: absolute;
+  left: 1%;
+  bottom: 10%;
+  border: 1px solid red;
+}
+
+.top {
+  height: 70%;
+  width: 100%;
+  border-bottom: 1px solid red;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.activity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.save {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.report {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.bottom {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  
+} */

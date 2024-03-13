@@ -55,11 +55,24 @@
     width: 50%;
     border: 1px solid;
   }
+
+  .topRight img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
   
   .topLeft {
     height: 100%;
     width: 50%;
     border: 1px solid;
+  }
+
+  .topLeft img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
   }
   
   .bottom {
@@ -76,11 +89,25 @@
     width: 50%;
     border: 1px solid;
   }
+
+  .bottomRight img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+  }
   
   .bottomLeft {
     height: 100%;
     width: 50%;
     border: 1px solid;
+  }
+
+  .bottomLeft img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
   }
   
   .suggestedPostsLeft {

@@ -1,10 +1,11 @@
-.main {
+.moreModel {
   height: 100%;
   width: 100%;
   background-color: #fff;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
+  position: relative;
 }
 
 .left {
@@ -28,10 +29,9 @@
   width: 40%;
 }
 
-.components1 {
+.tabList {
   height: 70%;
   width: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -39,8 +39,13 @@
   padding-left: 10%;
 }
 
+.tabList > * {
+  cursor: pointer;
+}
+
 .sidebarIcon {
   font-size: 30px;
+  margin: auto;
 }
 
 .home {
@@ -48,8 +53,10 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  cursor: pointer;
+}
 
+.home:hover .sidebarIcon {
+  font-size: 32px;
 }
 
 .search {
@@ -57,7 +64,10 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  cursor: pointer;
+}
+
+.search:hover .sidebarIcon {
+  font-size: 32px;
 }
 
 .explore {
@@ -65,8 +75,10 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  cursor: pointer;
+}
 
+.explore:hover .sidebarIcon {
+  font-size: 32px;
 }
 
 .reels {
@@ -74,8 +86,10 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  cursor: pointer;
+}
 
+.reels:hover .sidebarIcon {
+  font-size: 32px;
 }
 
 .messages {
@@ -83,8 +97,10 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  cursor: pointer;
+}
 
+.messages:hover .sidebarIcon {
+  font-size: 32px;
 }
 
 .notifications {
@@ -92,8 +108,10 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  cursor: pointer;
+}
 
+.notifications:hover .sidebarIcon {
+  font-size: 32px;
 }
 
 .create {
@@ -101,8 +119,10 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  cursor: pointer;
+}
 
+.create:hover .sidebarIcon {
+  font-size: 32px;
 }
 
 .profile {
@@ -110,8 +130,13 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  cursor: pointer;
+}
 
+.profile:hover .profileImg {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .profileImg {
@@ -152,13 +177,88 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  cursor: pointer;
+  position: relative;
+}
+.more .moreModel {
+  height: 56%;
+  width: 22%;
+  border-radius: 20px;
+  position: absolute;
+  left: 1%;
+  bottom: 10px;
+  border: 1px solid red;
+  display: none;
+}
 
+.top {
+  height: 70%;
+  width: 100%;
+  border-bottom: 1px solid red;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.activity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.save {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.report {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.bottom {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+
+
+.more:hover .sidebarIcon {
+  font-size: 32px;
 }
 
 .right {
   height: 100%;
   width: 80%;
+  border: 1px solid;
+  overflow: auto;
+  display: flex;
+}
+
+.searchClickedRight {
+  height: 100%;
+  width: 95%;
   border: 1px solid;
   overflow: auto;
   display: flex;
@@ -197,4 +297,15 @@
   height: 90%;
   width: 100%;
   border: 1px solid;
+}
+
+.notificationsModal {
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  top: 0px;
+  left: 70px;
+  bottom: 0px;
+  background-color: red;
+  z-index: 2;
 }
