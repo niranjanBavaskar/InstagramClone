@@ -1,8 +1,6 @@
-import React from 'react'
-import styles from './createPost.module.css'
+import React from "react";
+import styles from "./createPost.module.css";
 
-export const Createpost = () => {
-  return (
-    <div>Createpost</div>
-  )
-}
+export const CreatePost = () => {
+  return <div className={styles.main}>Createpost</div>;
+};
